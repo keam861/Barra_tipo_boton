@@ -42,6 +42,31 @@ nav ul li a{
   text-align: center;
 }
 
+#inicio:hover + .hidden {
+  display: block;
+}
+.submenu {
+  margin-top: 5px;
+  position: absolute;
+}
+
+.submenu li {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(white, silver);
+  display: block;
+  margin: 0;
+  height: 20px;
+}
+.submenu li a {
+  float: none;
+}
+.hidden {
+  display: none;
+}
+
 .footer {
   margin-top: 20px;
   clear: left;
