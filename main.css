@@ -1,0 +1,49 @@
+.container {
+  margin: 0 auto;  
+  width: 720px;
+}
+header {
+  background-color: black;
+  height: 100px;
+}
+h2 {
+  text-align: center;
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+nav{
+  background: linear-gradient(white, silver);
+  height: 35px;
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+nav ul{
+  padding: 5px;
+  margin-top: 15px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-top: 5px;
+  border-right: 3px solid white;
+  height: 35px;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  clear: left;
+  font-weight: bold;
+}
